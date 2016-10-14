@@ -1,0 +1,218 @@
+/*font-family: 'Signika', sans-serif;*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+ul {
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+    margin:  0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+.container {
+    width: 1401px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header {
+    background: #838479 url("../img/header-bg.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.title-text {
+    text-align: center;
+    margin-top: 390px;
+}
+
+.title-text h1.title {
+    font: 400 108px/108px Signika, sans-serif;
+    color: #f1f2f1;
+    margin-bottom: 66px;
+}
+
+.title-text p {
+    font: 700 48px/48px Signika, sans-serif;
+    color: #f1f2f1;
+}
+
+.title-text li {
+    display: inline-block;
+}
+
+.title-text li a {
+    font: 700 18px/18px Signika, sans-serif;
+    color: #f1f2f1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-bottom {
+    background: #00a388;
+}
+
+.menu {
+    text-align: center;
+    border-top: 1px solid #0ea88f;
+    border-bottom: 1px solid #0ea88f;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.menu li a {
+    font: 400 18px/18px Signika, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f1f2f1;
+}
+
+.about {
+    background: #ecfffc;
+}
+
+.about-title {
+    margin-top: 105px;
+}
+
+h2.title {
+    text-align: center;
+    font: 600 48px/48px Signika, sans-serif;
+    color: #140e1d;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.about-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font: 400 16px/16px Signika, sans-serif;
+    color: #140e1d;
+    margin-bottom: 53px;
+}
+
+.about-column {
+    width: 646px;
+    margin-bottom: 110px;
+}
+
+.about-column p {
+    font: 14px/28px OpenSans, sans-serif;
+}
+
+.about-people {
+    width: 270px;
+    height: 536px;
+    margin-right: 103px;
+    margin-bottom: 197px;
+    text-align: center;
+}
+
+.about-people:last-child {
+    margin-right: 0;
+}
+
+.about-people h5.title {
+    font: 400 18px/18px Signika, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.about-people-1 h5.title {
+    font: 400 18px/18px Signika, sans-serif;
+    color: #f1f2f1;
+}
+
+.about-people span {
+    font: 400 16px/16px Signika, sans-serif;
+}
+
+.about-people-1 span {
+    font: 400 16px/16px Signika, sans-serif;
+    color: #f1f2f1;
+}
+
+.about-people p {
+    font: 14px/28px OpenSans, sans-serif;
+    color: #f1f2f1;
+    margin-bottom: 20px;
+}
+
+.about-people-1 {
+    background: #00a388;
+}
+
+.s-net a .s-net-s  {
+    margin-left: 12px;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+
+.s-net a {
+    text-decoration: none;
+    margin-right: 11px;
+}
+
+.s-net a:last-child {margin-right: 0;}
+
+
+.s-net .s-net-s:first-child {
+    margin-left: 0;
+}
+
+.s-fb {
+    background: url("../img/s-sprite.png") no-repeat;
+    background-position: 0 -3px;
+}
+
+.s-tw {
+    background: url("../img/s-sprite.png") no-repeat;
+    background-position: -21px -3px;
+}
+
+.s-li {
+    background: url("../img/s-sprite.png") no-repeat;
+    background-position: -42px -3px;
+}
+
+.s-v {
+    background: url("../img/s-sprite.png") no-repeat;
+    background-position: -63px -3px;
+}
