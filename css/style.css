@@ -288,6 +288,10 @@ h2.title {
     background: url("../img/portfolio-element-8.png") center no-repeat;
 }
 
+.services {
+    background: #ffffff;
+}
+
 .services-title{
     margin-top: 125px;
 }
@@ -297,5 +301,53 @@ h2.title {
     text-align: center;
     font: 14px/28px OpenSans, sans-serif;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 77px;
+}
+
+.service {
+    width: 646px;
+    height: 335px;
+    margin-bottom: 65px;
+}
+
+.service-float-1 {
+    margin-right: 109px;
+    background: #f5fffd;
+}
+
+.service-float-3 {
+    margin-left: 109px;
+}
+
+.service-photo {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 25px;
+}
+
+.service-text h5.title {
+    font: 400 36px/36px Signika, sans-serif;
+    margin-bottom: 25px;
+}
+
+.service-text p {
+    font: 14px/25px OpenSans, sans-serif;
+}
+
+.link-right {
+    text-decoration: none;
+    color: #000;
+    font: 400 18px/18px Signika, sans-serif;
+}
+
+.blog-title {
+    margin-top: 113px;
+}
+
+.blog-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font: 14px/28px OpenSans, sans-serif;
+    color: #000;
+    margin-bottom: 68px;
 }
