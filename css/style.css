@@ -351,3 +351,68 @@ h2.title {
     color: #000;
     margin-bottom: 68px;
 }
+
+.blog-position {
+    width: 323px;
+    height: 680px;
+}
+
+.blog-pos-1,
+.blog-pos-2,
+.blog-pos-3 {
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+.blog-pos-5 {
+    margin-right: 4px;
+}
+
+.blog-pos-5,
+.blog-pos-6,
+.blog-pos-7 {
+    margin-left: 35px;
+    margin-bottom: 223px;
+}
+
+.description {
+    font: 16px/16px OpenSans, sans-serif;
+    color: #00a388;
+}
+
+.blog-img {
+    width: 323px;
+    height: 325px;
+    overflow: hidden;
+}
+
+.blog-pos-text {
+    background: #ffffff;
+    height: 324px;
+    width: 100%;
+    padding-top: 31px;
+}
+
+.blog-container {
+    width: 269px;
+    margin: 0 auto;
+}
+
+h5.title {
+    font: 400 28px/28px Signika, sans-serif;
+    margin-top: 31px;
+}
+
+.blog-container p {
+    margin-top: 45px;
+    font: 16px/30px OpenSans, sans-serif;
+}
+
+.map {
+    width: 100%;
+    height: 612px;
+}
+
+.contact-us {
+    background: #ffffff;
+}
