@@ -45,6 +45,8 @@ p {
     float: right;
 }
 
+.wrapper {background: #ecfffc;}
+
 .header {
     background: #838479 url("../img/header-bg.jpg") no-repeat center;
     -webkit-background-size: cover;
@@ -104,7 +106,7 @@ p {
 }
 
 .about {
-    background: #ecfffc;
+
 }
 
 .about-title {
@@ -215,4 +217,85 @@ h2.title {
 .s-v {
     background: url("../img/s-sprite.png") no-repeat;
     background-position: -63px -3px;
+}
+
+.portfolio-title {
+    margin-bottom: 36px;
+}
+
+.portfolio-links {
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+.portfolio-links li {
+    display: inline-block;
+    margin-right: 39px;
+}
+
+.portfolio-links li:last-child {
+    margin-right: 0;
+}
+
+.portfolio-links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font: 600 18px/18px Signika, sans-serif;
+}
+
+.portfolio-elements {
+    margin: 0;
+}
+
+.portfolio-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    background-size: cover;
+    height: 318px;
+}
+
+.portfolio-element-1 {
+    background: url("../img/portfolio-element-1.png") center no-repeat;
+}
+
+.portfolio-element-2 {
+    background: url("../img/portfolio-element-2.png") center no-repeat;
+}
+
+.portfolio-element-3 {
+    background: url("../img/portfolio-element-3.png") center no-repeat;
+}
+
+.portfolio-element-4 {
+    background: url("../img/portfolio-element-4.png") center no-repeat;
+}
+
+.portfolio-element-5 {
+    background: url("../img/portfolio-element-5.png") center no-repeat;
+}
+
+.portfolio-element-6 {
+    background: url("../img/portfolio-element-6.png") center no-repeat;
+}
+
+.portfolio-element-7 {
+    background: url("../img/portfolio-element-7.png") center no-repeat;
+}
+
+.portfolio-element-8 {
+    background: url("../img/portfolio-element-8.png") center no-repeat;
+}
+
+.services-title{
+    margin-top: 125px;
+}
+
+.services-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font: 14px/28px OpenSans, sans-serif;
+    color: #000;
+    margin-bottom: 20px;
 }
