@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Sigxak</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Signika:300,400,600,700" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
-    <div class="header">
+    <div class="header" id="header">
         <div class="container clearfix">
             <div class="header-banner">
                 <div class="title-text">
@@ -27,17 +27,17 @@
         <div class="container clearfix">
             <div class="menu">
                 <ul>
-                    <li><a href="#">home </a></li>
-                    <li><a href="#">about </a></li>
-                    <li><a href="#">portfolio </a></li>
-                    <li><a href="#">services </a></li>
-                    <li><a href="#">blog </a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#header">home </a></li>
+                    <li><a href="#about">about </a></li>
+                    <li><a href="#portfolio">portfolio </a></li>
+                    <li><a href="#services">services </a></li>
+                    <li><a href="#blog">blog </a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="container clearfix">
             <div class="about-title">
                 <h2 class="title">About <br>
@@ -98,7 +98,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container clearfix">
             <div class="portfolio-title">
                 <h2 class="title">portfolio <br>
@@ -135,7 +135,7 @@
             <li class="portfolio-element portfolio-element-8 right"></li>
         </ul>
     </div>
-    <div class="services">
+    <div class="services" id="services">
         <div class="container clearfix">
             <div class="services-title">
                 <h2 class="title">services <br>
@@ -195,7 +195,7 @@
             </div>
         </div>
     </div>
-    <div class="blog">
+    <div class="blog" id="blog">
         <div class="container clearfix">
             <div class="blog-title">
                 <h2 class="title">blog <br>
@@ -303,12 +303,38 @@
         <script type="text/javascript" charset="utf-8" async
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=aavq53O16z0DrZm5Fp-AF6DCwVTmkiQ_&amp;width=100%&amp;height=612&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
     </div>
-    <div class="contact-us">
+    <div class="contact-us" id="contact">
         <div class="container clearfix">
-            <div class="blog-title">
+            <div class="contact-title">
                 <h2 class="title">contact us<br>
                     ...</h2>
             </div>
+            <div class="form-container clearfix">
+                <form action="#">
+                    <input type="text" class="text text-1 left" placeholder="Name">
+                    <textarea name="message" id="message" class="message right" placeholder="Message"></textarea>
+                    <input type="text" class="text text-2 left" placeholder="E-Mail">
+                    <input type="submit" class="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-menu">
+            <div class="container">
+                <ul>
+                    <li><a href="#header">home </a></li>
+                    <li><a href="#about">about </a></li>
+                    <li><a href="#portfolio">portfolio </a></li>
+                    <li><a href="#services">services </a></li>
+                    <li><a href="#blog">blog </a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-adresses"></div>
+        <div class="footer-bottom">
+            Copyright&copy; 2016 XakBoX. All rights reserved.  Privacy Policy | Terms of Service | Careers
         </div>
     </div>
 </div>

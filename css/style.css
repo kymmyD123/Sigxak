@@ -416,3 +416,105 @@ h5.title {
 .contact-us {
     background: #ffffff;
 }
+
+.contact-title {
+    margin: 156px 0 50px 0;
+}
+
+#message {
+    resize: none;
+}
+
+.form-container {
+    width: 1174px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+.text {
+    background: #140e1d;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 536px;
+    height: 74px;
+    padding-left: 25px;
+    color: #fff;
+    font: 300 18px/18px OpenSans, sans-serif;
+}
+
+.text-1 {
+    margin-bottom: 30px;
+}
+
+.text-2 {
+    display: block;
+}
+
+.message {
+    background: #140e1d;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 550px;
+    height: 157px;
+    padding: 25px 0 0 25px;
+    color: #fff;
+    font: 300 18px/18px OpenSans, sans-serif;
+}
+
+.submit {
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 151px;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #140e1d;
+    color: #fff;
+    font: 300 18px/18px OpenSans, sans-serif;
+    width: 144px;
+    height: 47px;
+}
+
+.footer-menu {
+    background: #02c5a5;
+}
+
+.footer-menu ul {
+    margin: 0;
+    text-align: center;
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding: 46px 30px 31px 0;
+}
+
+.footer-menu li a {
+    font: 400 18px/18px Signika, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f1f2f1;
+}
+
+
+
+
+
+.footer-bottom {
+    background: #000;
+    color: #fff;
+    font: 400 14px/14px Signika, sans-serif;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
