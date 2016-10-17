@@ -507,9 +507,62 @@ form {
     color: #f1f2f1;
 }
 
+.footer-adresses {
+    background: #00a388;
+}
 
+.footer-text li {
+    display: inline-block;
+    font: 18px/18px OpenSans, sans-serif;
+    color: #f1f2f1;
+    margin: 118px 72px 118px 0;
+}
 
+.footer-text li:last-child {
+    margin-right: 0;
+}
 
+.social-net-footer {
+    margin: 143px 0 142px 405px;
+    width: 242px;
+    height: 51px;
+}
+
+.s-s-f {
+    margin: 0;
+}
+
+.s-s-f li {
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 7.3px;
+    width: 52px;
+    height: 51px;
+}
+
+.s-s-f a div {
+    width: 52px;
+    height: 51px;
+}
+
+.s-s-f li {
+    background: url("../img/s-sprite-2.png") no-repeat center;
+    background-position: 0 0;
+}
+
+.s-s-f .fb {
+    background-position: -54px 0;
+}
+
+.s-s-f .tw {
+    background-position: -108px 0;
+}
+
+.s-s-f .li {
+    background-position: -162px 0;
+}
+
+.s-s-f li:last-child {margin-right: 0;}
 
 .footer-bottom {
     background: #000;
